@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&display=swap');
+
+
+.mainTitle {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #16222F;
+    margin-top: 149px;
+    line-height: 59px;
+}
+
+.promoImage {
+    margin-top: 29px;
+    text-align: center;
+}
+
+.promoBtn {
+    margin-top: 27px;
+    background: #B64BAD;
+    border-radius: 50px;
+    text-align: center;
+    width: 255px;
+    height: 68px;
+    outline: none;
+    border: none;
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    cursor: pointer;
+    &:hover {
+        background: #882680;
+    }
+}

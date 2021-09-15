@@ -1,9 +1,9 @@
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from'./components/Navbar';
+import Promo from'./components/Promo';
 
 function App() {
-  return <Navbar />;
+  return  <Promo />;
 }
 
 export default App;
